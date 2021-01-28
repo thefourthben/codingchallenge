@@ -1,13 +1,37 @@
 /* BEGIN TASK 2 */
-
 /* Examples  */
-/* body {
-    background-color: red;
+body {
+    background-color: aliceblue;
+}
+h1 {
+    font-size: xx-large;
+    color: rgb(54, 52, 175);
 }
 
-a {
-    color: black;
-    font-size:12em;
-} */
+div.alert{
+    padding: 20px;
+    background-color: #fa7a70; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
 
+span.close{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+span.close:hover{
+    color: black;
+}
+
+img.photos{
+    width: 300px;
+    height: auto;
+}
 /* END TASK 2 */
